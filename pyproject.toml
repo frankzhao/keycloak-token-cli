@@ -1,0 +1,19 @@
+[project]
+name = "keycloak-token-cli"
+version = "0.1.0"
+description = "Exchange an authorization code for a JWT token from keycloak."
+authors = [
+    { name = "Frank Zhao", email = "contact@frankzhao.net" },
+]
+dependencies = [
+    "python-keycloak>=5.3.1",
+    "fastapi>=0.115.11",
+    "uvicorn>=0.34.0"
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = { text = "MIT" }
+
+
+[tool.pdm]
+distribution = false
