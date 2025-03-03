@@ -2,6 +2,7 @@ keycloak-token-cli
 ===
 
 Exchange an authorization code for a JWT token from keycloak.
+Set up a public client first.
 
 ```
 $ pdm install
